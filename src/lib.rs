@@ -1,3 +1,4 @@
+#![no_std]
 pub extern crate paste;
 #[macro_export]
 macro_rules! offset {
