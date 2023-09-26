@@ -5,6 +5,7 @@ edition = "2021"
 license = "MIT"
 description = "Macro for creating structs with fields at specified offsets, by automatically inserting padding."
 readme = "readme.md"
+repository = "https://github.com/thug-shaker/offsetter"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
