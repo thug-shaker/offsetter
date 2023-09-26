@@ -12,7 +12,7 @@ offset! just defines a struct with members at specific offsets and with a given 
 Same as offset! except that Debug is also automatically implemented, this can also be done by adding a derive however this also prints the padding fields.
 offset_debug's Debug implementation behaves like derive Debug except it ommits the generated padding fields.
 
-### features
+### Features
 This crate has a feature named "checked", which inserts compile time assertions that all fields are placed at the correct offsets this feature is only available on nightly compilers, and, with the offset_of feature enabled.
 
 ### Examples
